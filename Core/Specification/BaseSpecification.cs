@@ -47,4 +47,6 @@ public class BaseSpecification<T> : ISpecification<T>
         Take = take;
         isPagingEnabled = true;
     }
+    
 }
+

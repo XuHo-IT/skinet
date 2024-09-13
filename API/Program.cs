@@ -68,6 +68,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseCors("CorsPolicy");
+
 app.UseSwaggerDocumentaion();
 
 app.UseAuthorization();

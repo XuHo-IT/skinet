@@ -1,0 +1,13 @@
+.cart-no {
+    position: absolute;
+    min-height: 15px;
+    min-width: 20px;
+    border-radius: 50%;
+    font-size: 1em;
+    background: blue;
+    color: white;
+    text-align: center;
+    top: -13px; /* Adjusted to position above the cart icon */
+    right: -6px; /* Adjusted to position to the right of the cart icon */
+    line-height: 25px; /* Center the number vertically */
+}
